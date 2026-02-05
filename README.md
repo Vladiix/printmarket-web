@@ -127,7 +127,8 @@ Proyecto publicado mediante **GitHub Pages** y accesible desde el link del sitio
 ## 👤 Autor
 
 **Vladi**  
-Proyecto Web - Curso Desarrollo Frontend  
+Proyecto Web - Curso Desarrollo WebFlex
+Lucho y Neldo los Mejores 
 Año 2025
 
 ---
