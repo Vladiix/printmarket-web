@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Vladi - PrintMarket">
+    <meta name="description" content="PrintMarket: tienda de impresión 3D, impresoras, insumos y accesorios.">
+    <meta name="keywords" content="impresión 3D, impresoras 3D, filamentos, PrintMarket, diseño 3D">
+
     <title>Home | PrintMarket</title>
 
     <link rel="shortcut icon" href="./assets/logo/printmarket.jpg" type="image/x-icon">
@@ -31,10 +36,10 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="menu">
                 <ul class="navbar-nav gap-3">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./pages/impresoras.html">Impresoras</a></li>
                     <li class="nav-item"><a class="nav-link" href="./pages/insumos.html">Insumos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
                 </ul>
             </div>
@@ -43,9 +48,9 @@
     </header>
 
 
-    <main class="main-grid container my-5">
+    <main class="main-grid container my-5" id="inicio">
 
-        <section class="texto">
+        <section class="texto" id="servicios">
             <h2>Que tu próxima impresora sea tu aliado</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -53,14 +58,24 @@
             </p>
         </section>
 
-        <section class="imagen">
+        <section class="imagen" id="destacado">
             <img src="./assets/img/impresora.webp" alt="Impresora 3D">
         </section>
 
     </main>
 
 
-    <footer class="footer">
+    
+
+    <section class="container my-5" id="contacto">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <div class="contacto-card">
+            <p class="m-0">¿Querés asesoramiento? Escribinos por WhatsApp o redes.</p>
+            <a class="btn btn-primary mt-3" href="https://wa.me/5492396431265" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+        </div>
+    </section>
+
+<footer class="footer">
         <h3>Año 2025 - Todos los derechos reservados</h3>
 
         <div class="redes">
@@ -78,6 +93,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
 
 </body>
 
