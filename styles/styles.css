@@ -84,14 +84,14 @@ h1 {
 }
 
 @media (max-width: 992px) {
-  .main-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
+    .main-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 
-  .footer {
-    padding: 20px;
-  }
+    .footer {
+        padding: 20px;
+    }
 }
 
 /* ===== Mejoras responsive + alineación imágenes + carrusel en marco ===== */
@@ -160,7 +160,7 @@ h1 {
     padding: 20px;
     border-radius: 12px;
     background: white;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
 
@@ -210,6 +210,7 @@ h1 {
 
 /* Mobile */
 @media (max-width: 768px) {
+
     .carousel-frame,
     .carousel-item {
         height: 240px;
@@ -222,7 +223,8 @@ h1 {
 
 
 /* ===== Fix fondo blanco abajo (todas las páginas) ===== */
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -238,5 +240,10 @@ main {
 
 
 /* Layout para evitar margen blanco cuando hay poco contenido */
-main { flex: 1; }
-.footer { margin-top: auto; }
+main {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
